@@ -1,13 +1,27 @@
 # INSTALL 
-## yarn 
+## npm install 
 
 # RUN 
 ## npm run start 
-## yarn start
 ## npm run json:server
 
 # ENDPOINTS 
-## localhost: 
+## localhost:3000
 
 # DEPLOY 
-## yarn build
+## DO
+
+## API Data schema
+
+GET POST PATCH DELETE : http://localhost:3000
+
+Headers 
+Key: Content-Type 
+Value: application/json
+
+Body: 
+Raw data
+{
+  "username":"mikengo",
+  "name":"Miken"
+}
