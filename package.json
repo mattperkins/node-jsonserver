@@ -1,0 +1,7 @@
+{
+  "name": "node-jsonserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mattperkins <github@mattperkins.com>",
+  "license": "MIT"
+}
