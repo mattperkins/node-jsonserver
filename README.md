@@ -2,7 +2,9 @@
 ## yarn 
 
 # RUN 
-## yarn start 
+## npm run start 
+## yarn start
+## npm run json:server
 
 # ENDPOINTS 
 ## localhost: 
