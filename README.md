@@ -1,11 +1,10 @@
 # INSTALL 
-## npm install 
+## yarn
 
 # RUN 
-## npm run start 
-## npm run json:server
+## yarn start
 
-# ENDPOINTS 
+# DEV ENDPOINTS 
 ## localhost:3000
 
 # DEPLOY 
@@ -13,10 +12,17 @@
 ## cd node-jsonserver
 ## npm install
 ## sudo npm install -g pm2
-## pm2 start npm
-## startup systemd // follow prompt
+## install nginx
 
+# UP
+## DO cmdln
+## NODE_ENV=production pm2 start --no-autorestart --name node-jsonserver npm -- start
+## pm2 startup systemd // follow prompt
+
+# DOWN
 ## pm2 unstartup systemd // stop auto startup
+## ## NODE_ENV=production pm2 stop --no-autorestart --name node-jsonserver npm -- start
+
 
 ## API Data schema
 GET POST PATCH DELETE : http://localhost:3000
