@@ -10,7 +10,7 @@
 # DEPLOY 
 ## git clone https://github.com/mattperkins/node-jsonserver.git
 ## cd node-jsonserver
-## npm install
+## npm install -g json-server || npm install (if using deps)
 ## sudo npm install -g pm2
 ## install nginx
 
