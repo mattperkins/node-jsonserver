@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json",
-    "json:server": "json-server --watch db.json"
+    "start": "json-server --watch db.json"
   },
   "license": "MIT",
   "dependencies": {
