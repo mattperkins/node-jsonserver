@@ -9,7 +9,7 @@
 ## localhost:3000
 
 # DEPLOY 
-## DO
+## git clone github.com:mattperkins/node-jsonserver.git
 
 ## API Data schema
 
